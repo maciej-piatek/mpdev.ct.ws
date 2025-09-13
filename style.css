@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Roboto;
+    src:  url(Roboto.woff);
+}
+@media only screen and (max-width: 600px) {
+	.TopMenu a {
+		text-decoration:none;
+		color: white;
+		font-size: 36px;
+	}
+	.TopMenu a:hover {
+	text-decoration:none;
+	color: #00e673;
+	font-size: 40px;
+	}
+}
+
+.TopMenu {
+	color: white;
+	height: 50px;
+	text-align: right;	
+	padding: 14px 16px;
+	overflow: hidden;
+	
+}
+.TopMenu a {
+	text-decoration:none;
+	color: white;
+	font-size: 24px;
+}
+.TopMenu a:hover {
+	text-decoration:none;
+	color: #00e673;
+	font-size: 30px;
+}
+body {
+	background-color: black;
+	color: white;
+	font-family: Roboto;
+	text-align: center;
+}
+.ProjectOne a {
+	text-decoration:none;
+	color: white;
+	font-size: 36px;
+}
+.ProjectOne a:hover {
+	text-decoration:none;
+	color: #00e673;
+	font-size: 36px;
+}
+.CV a {
+	text-decoration:none;
+	color: yellow;
+}
+.Socials a {
+	text-decoration:none;
+	color: #33ccff;
+}
